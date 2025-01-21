@@ -3,13 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Website</title>
+    <title>Log in Page</title>
+    <link rel="stylesheet" href="./style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Hello Welcome</h1>
-    <p>Welcome to the code</p>
-    <p>in main branch</p>
-    <h2>this code is good</h2>
-    <p>switch to new branch</p>
+      <div class="container">
+            <div class="header">
+                <h1>Login to CodeAcademy</h1>
+            </div>
+            <form action="login.html">
+                      <label for="uname">Email or Username</label>
+                      <input type="text" name="uname" id="uname" required>
+                      <label for="pass">Password</label>
+                      <input type="text" name="pass" id="pass" required>        
+                      <a href="#">I forgot my password</a>
+                      <input type="submit" value="Log In" >           
+            </form>
+            <div class="footer">
+                <h3>Login with another account</h3>
+                <div class="images">
+                     <img src="images/linkedin.png" alt="">
+                     <img src="images/google.png" alt="">
+                     <img src="images/facebook.png" alt="">
+                     <img src="images/github.png" alt="">
+                     <img src="images/twitter.png" alt="">
+                </div>  
+                <a href="#">Not a member yet?<strong>Sign up free</strong></a>
+            </div>  
+           
+      </div>
 </body>
 </html>
